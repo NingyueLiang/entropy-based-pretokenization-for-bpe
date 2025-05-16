@@ -1,0 +1,10 @@
+torch
+transformers
+matplotlib
+sentencepiece
+numpy
+pandas
+scipy
+sklearn
+nltk
+
