@@ -21,7 +21,7 @@ The implementation is evaluated on a subset of the PKU corpus for CWS, comparing
 ## Project Structure
 
 - `entropy_model.ipynb`: Main implementation notebook containing the entropy-based tokenization logic
-- `Evaluation_and_PMI.ipynb`: Notebook for evaluating the performance of entropy-guided pre-tokenization against standard BPE tokenization and statistical methods logics
+- `Evaluation_and_PMI.ipynb`: Notebook for evaluating the performance of entropy-guided pre-tokenization against standard BPE tokenization and contains statistical methods logics
 - `data/`: Directory for storing the dataset
 - `model/`: Directory for storing the model
 - `result.txt`: File for storing the results
