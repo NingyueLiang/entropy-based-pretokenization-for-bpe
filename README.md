@@ -9,34 +9,24 @@ The project focuses on improving tokenization for unsegmented languages like Chi
 ## Key Features
 
 - **Entropy Calculation**: Computes next-token entropy using transformer models or statistical methods
-- **Model Support**: Compatible with both GPT-2 and BERT models for entropy calculation
+- **Model Support**: Compatible with autoregressive language models for entropy calculation
 - **Visualization Tools**: Includes utilities for visualizing entropy distributions along token positions
 - **Evaluation Metrics**: Implements precision, recall, and F1 score evaluation against standard BPE tokenization
 - **Text Processing**: Provides utilities for text preprocessing and analysis
 
 ## Implementation Details
 
-The implementation is evaluated on a subset of the PKU corpus, comparing the performance of entropy-guided pre-tokenization against standard BPE tokenization methods.
+The implementation is evaluated on a subset of the PKU corpus for CWS, comparing the performance of entropy-guided pre-tokenization against standard BPE tokenization methods.
 
 ## Project Structure
 
 - `entropy_model.ipynb`: Main implementation notebook containing the entropy-based tokenization logic
-- Additional files and directories to be added as the project develops
+- `Evaluation_and_PMI.ipynb`: Notebook for evaluating the performance of entropy-guided pre-tokenization against standard BPE tokenization and statistical methods logics
+- `data/`: Directory for storing the dataset
+- `model/`: Directory for storing the model
+- `result.txt`: File for storing the results
 
 ## Requirements
-
-(To be added based on project dependencies)
-
-## Usage
-
-(To be added with implementation details)
-
-## License
-
-(To be added)
-
-## Citation
-
-(To be added if applicable)
+See `requirements.txt`
 
 
